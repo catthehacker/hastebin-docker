@@ -5,13 +5,13 @@ A dev oriented pastebin like container for sharing code and text. A lot more use
 
 ## Run
 ```bash
-docker run --name pastebin -p 80:80 catthehacker/hastebin
+docker run --name pastebin -p 80:80 hackercatsco/hastebin
 ```
 
 ## Compose
 ```yaml
 hastebin:
-  image: catthehacker/hastebin
+  image: hackercatsco/hastebin
 ```
 # Settings
 
