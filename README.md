@@ -1,4 +1,4 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/catthe/hastebin)](https://hub.docker.com/r/catthehacker/hastebin)
+[![Docker Pulls](https://img.shields.io/docker/pulls/catthehacker/hastebin)](https://hub.docker.com/r/catthehacker/hastebin)
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/catthehacker/hastebin)](https://hub.docker.com/r/catthehacker/hastebin)
 [![Docker Repository on Quay](https://quay.io/repository/catthehacker/hastebin/status "Docker Repository on Quay")](https://quay.io/repository/catthehacker/hastebin)
 
