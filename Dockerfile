@@ -8,6 +8,7 @@ WORKDIR /opt/haste
 ADD conf/about.md /opt/haste/
 RUN apk del git && \
     npm install && \
+    npm install aws-sdk && \
     rm -rf /opt/haste/config.js && \
     ln -s /opt/haste/config.json /opt/haste/config.js
 ADD conf/config.json /opt/haste/config.json
