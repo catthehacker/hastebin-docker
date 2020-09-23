@@ -1,5 +1,6 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/hackercatsco/hastebin)](https://hub.docker.com/r/hackercatsco/hastebin)
-[![Docker Build Status](https://img.shields.io/docker/cloud/build/hackercatsco/hastebin)](https://hub.docker.com/r/hackercatsco/hastebin)
+[![Docker Pulls](https://img.shields.io/docker/pulls/catthe/hastebin)](https://hub.docker.com/r/catthehacker/hastebin)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/catthehacker/hastebin)](https://hub.docker.com/r/catthehacker/hastebin)
+[![Docker Repository on Quay](https://quay.io/repository/catthehacker/hastebin/status "Docker Repository on Quay")](https://quay.io/repository/catthehacker/hastebin)
 
 # docker-pastebin
 A dev oriented pastebin like container for sharing code and text. A lot more usefull though, thanking [John Crepezzi](https://github.com/seejohnrun) Paste your stuff however :)
@@ -8,13 +9,13 @@ A dev oriented pastebin like container for sharing code and text. A lot more use
 
 ## Run
 ```bash
-docker run --name hastebin -p 80:80 hackercatsco/hastebin
+docker run --name hastebin -p 80:80 catthehacker/hastebin
 ```
 
 ## Compose
 ```yaml
 hastebin:
-    image: hackercatsco/hastebin
+    image: catthehacker/hastebin
     container_name: hastebin
     hostname: hastebin
     restart: unless-stopped
